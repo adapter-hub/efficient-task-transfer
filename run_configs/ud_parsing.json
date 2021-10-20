@@ -1,0 +1,22 @@
+{
+    "dataset": {
+        "dataset_name": "ud_parsing",
+        "task_name": "en_ewt",
+        "dataset_dir": "~/itrain/datasets/universal_dependencies.py",
+        "max_seq_length": 256
+    },
+    "model": {
+        "model_name_or_path": "roberta-base",
+        "use_fast_tokenizer": false,
+        "train_adapter": true,
+        "adapter_config": "pfeiffer"
+    },
+    "training": {
+        "learning_rate": 5e-4,
+        "batch_size": 12,
+        "num_train_epochs": 30,
+        "patience": 2,
+        "patience_metric": "eval_uas"
+    },
+    "evaluation": "test"
+}

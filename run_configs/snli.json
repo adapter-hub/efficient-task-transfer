@@ -1,0 +1,20 @@
+{
+    "dataset": {
+        "dataset_name": "snli",
+        "max_seq_length": 80
+    },
+    "model": {
+        "model_name_or_path": "roberta-base",
+        "use_fast_tokenizer": true,
+        "train_adapter": true,
+        "adapter_config": "pfeiffer"
+    },
+    "training": {
+        "learning_rate": 1e-4,
+        "batch_size": 4,
+        "num_train_epochs": 15,
+        "patience": 4,
+        "patience_metric": "eval_accuracy"
+    },
+    "evaluation": true
+}

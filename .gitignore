@@ -1,0 +1,15 @@
+env
+.vscode
+__pycache__
+*.egg-info
+run_output
+fusion_output
+transfer_output
+limited_output
+run_logs
+*.sh
+samples
+/datasets
+*.csv
+/task_selection/output
+trained_*_map.json
