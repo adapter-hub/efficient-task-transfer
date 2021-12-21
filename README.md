@@ -86,20 +86,27 @@ export DEFAULT_TASK_MAP="/path/to/task_map.json"
 - **[tuvuumass/task-transferability](https://github.com/tuvuumass/task-transferability)** for the TextEmb and TaskEmb implementations
 - **[Adapter-Hub/adapter-transformers](https://github.com/Adapter-Hub/adapter-transformers)** for the adapter implementation
 
-## Citation
+## Citation & Contact
 
 If you find this repository helpful, please cite our paper ["What to Pre-Train on? Efficient Intermediate Task Selection"](https://arxiv.org/pdf/2104.08247):
 
 ```bibtex
-@inproceedings{poth-etal-2021-what-to-pre-train-on,
-    title={What to Pre-Train on? Efficient Intermediate Task Selection},
-    author={Clifton Poth and Jonas Pfeiffer and Andreas Rücklé and Iryna Gurevych},
-    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+@inproceedings{poth-etal-2021-pre,
+    title = "{W}hat to Pre-Train on? {E}fficient Intermediate Task Selection",
+    author = {Poth, Clifton  and
+      Pfeiffer, Jonas  and
+      R{\"u}ckl{\'e}, Andreas  and
+      Gurevych, Iryna},
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
     month = nov,
     year = "2021",
-    address = "Online",
+    address = "Online and Punta Cana, Dominican Republic",
     publisher = "Association for Computational Linguistics",
-    url = "https://arxiv.org/abs/2104.08247",
-    pages = "to appear",
+    url = "https://aclanthology.org/2021.emnlp-main.827",
+    pages = "10585--10605",
 }
 ```
+
+If you have any further questions, please feel free to open an issue or contact us directly.
+
+Contact person: Clifton Poth, calpt@mail.de

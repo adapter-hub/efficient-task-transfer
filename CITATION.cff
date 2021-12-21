@@ -1,5 +1,4 @@
 cff-version: "1.2.0"
-date-released: 2021-11
 message: "If you use this software, please cite it as below."
 title: "What to Pre-Train on? Efficient Intermediate Task Selection"
 url: "https://github.com/Adapter-Hub/efficient-task-transfer"
@@ -13,7 +12,7 @@ authors:
   - family-names: Gurevych
     given-names: Iryna
 preferred-citation:
-  type: inproceedings
+  type: conference-paper
   authors:
    - family-names: Poth
      given-names: Clifton
@@ -23,10 +22,12 @@ preferred-citation:
      given-names: Andreas
    - family-names: Gurevych
      given-names: Iryna
-  booktitle: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
-  month: 11
+  journal: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
   title: "What to Pre-Train on? Efficient Intermediate Task Selection"
   year: 2021
-  publisher: "Association for Computational Linguistics"
-  url: "https://arxiv.org/abs/2104.08247"
-  address: "Online"
+  month: 11
+  publisher:
+    name: "Association for Computational Linguistics"
+  start: 10585
+  end: 10605
+  url: "https://aclanthology.org/2021.emnlp-main.827"
